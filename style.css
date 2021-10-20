@@ -1,10 +1,19 @@
 body{
     width: 100%;
-    
     display: block;
+    background: #B9F4D4;
 }
 
-
+header{
+    background: #062916;
+    width: 100%;
+    height: 120px;
+    color:#DEFAEB;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(100px,200px);
+    margin-bottom: 100px;
+}
 
 .afis{
 
@@ -23,16 +32,20 @@ body{
 .cerc{
     width: 80px;
     height:60px;
-    background: rgb(184, 194, 173);
+    background: #062916;
     border-radius: 50%;
     text-align: center;
     padding-top: 20px;
     margin: 10px;
-    color: crimson;
+    color: #DEFAEB;
     font-size: 2em;
+    font-weight: bolder;
     line-height: 1em;
 }
-
+#comenzi{
+    width: 100%;
+    display: block;
+}
 .button{
     width: 200px;
     height: 60px;
@@ -42,20 +55,22 @@ body{
     text-align: center;
     line-height: 25px;
     font-size: 2em;
-    background: grey;
+    background: #0C4E2A;
     border-radius: 7px;
+    color:#DEFAEB;
     margin-top: 10px;
 }
 
 body{
-    background: rgb(59, 59, 59);
+    
+    background: #B9F4D4;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #062916;
 }
 
 img{
@@ -63,6 +78,13 @@ img{
     width: 45%;
     height: 45%;
 }
+header img{
+    width: 20%;
+    height: 50%;
+    margin:auto 5px auto  75%;
+    
+}
+
 
 rezultat{
     width: 70%;
